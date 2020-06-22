@@ -1,0 +1,4 @@
+
+.topStroke:first-child{
+    border-top: 2px solid var(--green);
+}

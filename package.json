@@ -1,0 +1,34 @@
+{
+  "name": "gfnf",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.8.0",
+    "image-trace-loader": "^1.0.2",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-mozjpeg": "^8.0.0",
+    "imagemin-optipng": "^7.1.0",
+    "imagemin-svgo": "^7.1.0",
+    "jimp": "^0.12.1",
+    "lqip-loader": "^2.2.0",
+    "next": "9.4.1",
+    "next-compose-plugins": "^2.2.0",
+    "next-optimized-images": "^2.6.0",
+    "postcss-flexbugs-fixes": "^4.2.1",
+    "postcss-import": "^12.0.1",
+    "postcss-preset-env": "^6.7.0",
+    "pure-react-carousel": "^1.27.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-ticker": "^1.2.2",
+    "responsive-loader": "^1.2.0",
+    "svg-sprite-loader": "^5.0.0",
+    "tailwindcss": "^1.4.6",
+    "webp-loader": "^0.6.0"
+  }
+}

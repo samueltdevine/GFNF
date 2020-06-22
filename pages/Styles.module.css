@@ -1,0 +1,35 @@
+/* STROKED TEXT */
+.outlineText {
+  color: black;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white,
+    1px 1px 0 white;
+}
+/* SOLD OUT ANIMATION */
+.soldOut {
+  width: max-content;
+  position: relative;
+  transition: ease all 0.2s;
+}
+.soldOut:hover :nth-child(2) {
+  transform: rotate(5deg);
+  transition: ease all 0.2s;
+}
+.soldOut:hover :nth-child(3) {
+  transform: rotate(-5deg);
+  transition: ease all 0.2s;
+}
+
+
+.barAnim {
+  transition: ease all 0.2s;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+}
+
+.ltGray {
+  background-color: #eeeeee;
+  color: black;
+}

@@ -1,0 +1,26 @@
+
+/* hides the last slash in the nav links*/
+.dividerHider:last-child p{
+    display: none;
+}
+
+/* rotates the lightningbolt */
+.wordmarkAnim:hover :last-child{
+    transform: rotate3d(0, 1, 0, 360deg);
+    transition: all .5s ease;
+}
+.logoAnim{
+    transform: rotate3d(0, 1, 0, 0deg);
+    transition: all .5s ease;
+
+}
+@media only screen and (max-width: 600px) {
+    .navLinks {
+        display: none;
+    }
+  }
+
+.navlinks li{
+    padding: 10px;
+    list-style: none;
+}

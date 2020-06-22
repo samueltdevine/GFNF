@@ -1,0 +1,19 @@
+
+.tickerContainer {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    display: flex;
+    height: 10vh;
+  }
+  
+  .tickImg {
+    display: flex;
+    height: 100%;
+  }
+  
+  .tickImg img {
+    /* height: 100%;
+    width: 100%; */
+  
+  }
+  
