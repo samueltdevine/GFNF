@@ -49,15 +49,15 @@ export default function Home() {
                   <div className={styles.barAnim}></div>
                   <div className={styles.barAnim}></div>
                 </div>
-                <a href="/buy-now" className={classNames("self-end")}>
+                {/* <a href="/buy-now" className={classNames("self-end")}>
                   <div className="buttonGreen">
                     <h3>Buy Now</h3>
                   </div>
-                </a>
+                </a> */}
               </div>
               <a
                 href={"#Team"}
-                className={classNames("relative", "w-6", "h-20")}
+                className={classNames("relative", "w-6", "h-20", styles.downAnimation)}
               >
                 <img
                   className="absolute w-full h-full bottom-0 right-0"
