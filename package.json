@@ -27,7 +27,7 @@
     "react-dom": "16.13.1",
     "react-ticker": "^1.2.2",
     "responsive-loader": "^1.2.0",
-    "svg-sprite-loader": "^5.0.0",
+    "svg-sprite-loader": "^5.2.1",
     "tailwindcss": "^1.4.6",
     "webp-loader": "^0.6.0"
   }
